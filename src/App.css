@@ -1,3 +1,8 @@
+html {
+
+  color-scheme: light;
+}
+
 body {
   margin: 0;
   overflow: hidden;
@@ -276,11 +281,13 @@ body {
 
   font-size: 22px;
 
-  color: #7c6857;
+  color: #5e4635;
 
   font-family: Georgia, serif;
 
   font-style: italic;
+
+  font-weight: 500;
 
   letter-spacing: 0.5px;
 
@@ -324,8 +331,8 @@ body {
 
   .nombreSobre {
 
-  right: 25px;
-  bottom: 495px;
+  right: 27px;
+  bottom: 455px;
 
   font-size: 10px;
 
@@ -336,9 +343,9 @@ body {
 
   .sello {
 
-    width: 120px;
+    width: 130px;
 
-    top: 98px;
+    top: 110px;
   }
 
   /* BOTÓN */
@@ -347,14 +354,14 @@ body {
 
     width: 220px;
 
-    bottom: 370px;
+    bottom: 330px;
   }
 
   /* CARTA */
 
   .carta {
 
-    width: 63%;
+    width: 79%;
 
     top: 5px;
 
@@ -374,8 +381,8 @@ body {
 
   .numeroInvitados {
 
-  right: 46px;
-  bottom: 11.5px;
+  right: 71px;
+  bottom: 19px;
 
   font-size: 13px;
 }
