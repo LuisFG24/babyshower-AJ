@@ -17,6 +17,9 @@ function App() {
 const invitados =
   params.get('invitados') || '2'
 
+  const nombre =
+  params.get('nombre') || ''
+
   const [abierto, setAbierto] = useState(false)
 
   return (
@@ -31,6 +34,14 @@ const invitados =
           src={sobre}
           className={`sobre ${abierto ? 'abierto' : ''}`}
         />
+
+        <div
+  className={`nombreSobre ${abierto ? 'ocultoNombre' : ''}`}
+>
+
+  {nombre}
+
+</div>
 
         {/* SELLO */}
 

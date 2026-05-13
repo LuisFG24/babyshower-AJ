@@ -263,6 +263,33 @@ body {
   letter-spacing: 1px;
 }
 
+/* NOMBRE SOBRE */
+
+.nombreSobre {
+
+  position: absolute;
+
+  right: 55px;
+  bottom: 130px;
+
+  z-index: 15;
+
+  font-size: 22px;
+
+  color: #7c6857;
+
+  font-family: Georgia, serif;
+
+  font-style: italic;
+
+  letter-spacing: 0.5px;
+
+  text-align: right;
+
+  max-width: 320px;
+
+  transition: 0.6s;
+}
 
 /* ======================================== */
 /* RESPONSIVE MÓVIL */
@@ -294,6 +321,16 @@ body {
 
     width: 100%;
   }
+
+  .nombreSobre {
+
+  right: 25px;
+  bottom: 495px;
+
+  font-size: 10px;
+
+  max-width: 180px;
+}
 
   /* SELLO */
 
@@ -331,6 +368,8 @@ body {
     width: 82%;
   }
 
+
+
   /* NÚMERO */
 
   .numeroInvitados {
@@ -340,5 +379,19 @@ body {
 
   font-size: 13px;
 }
+}
+
+/* NOMBRE DESAPARECE */
+
+.ocultoNombre {
+
+  opacity: 0;
+
+  transform:
+    translateY(20px);
+
+  transition: 0.6s;
+
+  pointer-events: none;
 }
 
